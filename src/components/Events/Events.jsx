@@ -1,7 +1,7 @@
 import React from 'react'
-
+import './Events.css'
 export default function Events() {
   return (
-    <div>this is Events</div>
+    <div className='events_body'>this is Events</div>
   )
 }
