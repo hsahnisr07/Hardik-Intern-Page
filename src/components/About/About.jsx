@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 
-// import OurTeam from './OurTeam/OurTeam'
+import OurTeam from './OurTeam/OurTeam'
 import WhoWeAre from './WhoWeAre/WhoWeAre'
 
 export default function About() {
@@ -9,7 +9,6 @@ export default function About() {
     <div className='about_body'>
       <WhoWeAre/>
       <div className="dep_image"></div>
-      {/* <OurTeam/> */}
     </div>
   )
 }
