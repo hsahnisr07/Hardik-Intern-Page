@@ -8,6 +8,8 @@ import About from './components/About/About';
 import Events from './components/Events/Events';
 import Acads from './components/Acads/Acads';
 import Intern from './components/Intern/Intern';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -20,8 +22,12 @@ function App() {
             <Route path="/Events" element={<Events/>}/>
             <Route path="/Intern" element={<Intern/>}/>
             <Route path="/Acads" element={<Acads/>}/>
+          
           </Route>
+        
+      
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
