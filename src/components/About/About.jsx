@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 
-import OurTeam from './OurTeam/OurTeam'
 import WhoWeAre from './WhoWeAre/WhoWeAre'
 
 export default function About() {
