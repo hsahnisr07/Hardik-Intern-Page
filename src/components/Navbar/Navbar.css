@@ -15,9 +15,10 @@
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    height: 60px;
 }
 
-nav>img{
+.navbar__nav>img{
     height: 40px;
 }
 .navbar__navMenu {
@@ -25,6 +26,8 @@ nav>img{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar__navMenu>.Link {
@@ -66,7 +69,7 @@ nav>img{
   
     .navbar__navMenu > .Link {
         width: 80vw;
-      font-size: 1.5em;
+      font-size: 1.2em;
       font-weight: 400;
       text-decoration: none;
       color: white;

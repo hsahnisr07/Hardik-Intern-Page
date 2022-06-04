@@ -45,7 +45,7 @@
         transform: translateY(0);
     }
     .WhoWeAre_img{
-        margin-top: 8em;
+        margin-top: 5em;
         margin-bottom: 1.5em;
         position: static;
         width: 90vw;
@@ -55,13 +55,14 @@
         width: auto;
         margin-bottom: 2em;
         align-items: center;
+        padding: 20px;
     }
     .heading_WhoWeAre{
-        font-size: 1.8em;
+        font-size: 1.5em;
         margin-bottom: 0.3em;
     }
     .content_WhoWeAre{
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: 300;
         text-align: justify;
     }

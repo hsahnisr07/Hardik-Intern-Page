@@ -1,96 +1,108 @@
-footer{
-    padding: 2rem 0;
-    background-color: #282A27;
+footer {
+    padding: 1em 0;
+    background-color: #222322;
     color: #fff;
 }
-footer ul{
+
+footer ul {
     padding: 0;
 }
-footer li{
+
+footer li {
     list-style: none;
-    font-weight: lighter;
 }
-footer p{
-    font-weight: lighter;
+
+footer p {
+    color: rgb(230, 230, 230);
+    font-weight: 300;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: #fff;
 }
-footer .copyright-text{
+
+footer .copyright-text {
     margin: 0;
 }
 
-footer .social-links{
+footer .social-links {
     height: 25px;
 }
-footer .logo{
-   height: 65px;
+
+footer .logo {
+    height: 45px;
 }
-footer .line{
-    height: 50px;
- }
 
- footer .backToTop{
-     font-weight: lighter;
-     }
-    footer .backToTopImg{
-        height:20px;
-    }
+footer .line {
+    height: 45px;
+}
 
- footer #btn-backToTop{
+footer .backToTop {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+footer .backToTopImg {
+    height: 2em;
+}
+
+footer #btn-backToTop {
 
     border: none;
     outline: none;
-  background: none;
+    background: none;
     cursor: pointer;
- }
- footer a:hover{
-     color: #FFA401;
- }
-footer h2,footer h4{
-    font-weight: 450;
 }
- @media (max-width:768px){
-    footer .logo{
-        height: 50px;
-     }
-     footer .line{
-         height: 35px;
-      }
-    footer .logo-heading{
-        font-size: 20px;
-        
+
+footer a:hover {
+    color: #FFA401;
+}
+
+footer h4 {
+    font-weight: 400;
+}
+
+@media (max-width:768px) {
+    footer{
+        padding: 2em;
     }
-    footer .backToTop{
+    footer .logo {
+        height: 35px;
+    }
+
+    footer .line {
+        display: none;
+    }
+
+    footer .logo-heading {
         font-size: 20px;
     }
-   footer .backToTopImg{
-       height: 20px;
-   }
- }
- @media (max-width: 450px){
-    footer .logo{
+
+}
+
+@media (max-width: 450px) {
+    footer .logo {
         height: 38px;
-     }
-     footer .line{
-         height: 22px;
-      }
-    footer .logo-heading{
-        font-size: 15px;
-        
     }
-    footer .backToTop{
-        font-size: 15px;
+
+    footer .line {
+        height: 22px;
     }
-   footer .backToTopImg{
-       height: 10px;
-   }
-   footer p, footer a{
-       font-size: 14px;
-   }
-   footer .social-links{
-    height: 20px;
-    
+
+    footer .logo-heading {
+        font-size: 15px;
+
+    }
+
+
+    footer p,
+    footer a {
+        font-size: 14px;
+    }
+
+    footer .social-links {
+        height: 20px;
+
+    }
 }
- }

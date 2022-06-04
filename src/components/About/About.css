@@ -1,6 +1,7 @@
 .about_body{
     width: auto;
     color: white;
+    background-color: black;
 }
 .about_body>.dep_image{
     background-image: url('../../Assets/department_img.jpg');

@@ -1,6 +1,8 @@
 import React from "react";
+
 import "./Footer.css";
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import facebook from "../../Assets/img/facebook.png";
 import insta from "../../Assets/img/instagram.png";
 import youtube from "../../Assets/img/youtube.png";
@@ -8,26 +10,27 @@ import linkedin from "../../Assets/img/linkedin.png";
 import logo from "../../Assets/img/logo.png";
 import line from "../../Assets/img/line.png";
 import upArrow from "../../Assets/img/upArrow.png";
+
 function Footer() {
     return (
         <footer>
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 col-lg-10  mx-auto">
-                        <div className="row mb-5">
+            <div className="container m-auto p-0">
+                <div className="row m-0">
+                    <div className="col-12 col-lg-10  mx-auto p-0 mt-1">
+                        <div className="row mb-3">
                             <div className="col-6 col-lg-6 my-auto d-flex justify-content-start ">
                                
                              
                                 <div className="col-12 col-lg-9">
                                     <div className="row">
-                                    <div className="col-5 col-lg-4 p-0 mx-auto  my-auto ">
+                                    <div className="col-5 col-lg-4 p-0 m-auto ">
                                         <img src={logo}  className="logo m-0" alt="" />
                                     </div>
                                     <div className="col-1 col-lg-1 p-0  mx-auto my-auto" >
                                         <img src={line} className="line m-0" alt="" />
                                     </div>
                                     <div className="col-6 col-lg-7 p-0 mx-auto my-auto" >
-                                        <h2 class="logo-heading m-0" >IIT Roorkee</h2>
+                                        <h4 className="logo-heading m-0" >IIT Roorkee</h4>
                                     </div>
                                     </div>
                                    
@@ -40,11 +43,11 @@ function Footer() {
                                 <div className="column text-center">
                                     <div>
                                         <button onClick={topFunction} id="btn-backToTop">
-                                            <img className="m-1 backToTopImg" src={upArrow} alt="" />
+                                            <img className="m-0 backToTopImg" src={upArrow} alt="" />
                                         </button>
                                     </div>
                                     <div>
-                                        <h4 className="backToTop m-1">BACK TO TOP</h4>
+                                        <h6 className="backToTop m-1">BACK TO TOP</h6>
                                     </div>
                                 </div>
                             </div>
@@ -52,7 +55,7 @@ function Footer() {
 
                         <div className="row justify-content-center">
                             <div className="col-6 col-lg-4 mb-4 ">
-                                <h4 className="mb-3">Our Address</h4>
+                                <h5 className="mb-2">Our Address</h5>
                                 <p className="mb-0">Department Of Electrical Engineering</p>
                                 <p className="mb-1">IIT Roorkee, 247667</p>
                                 <p className="mb-1">Phone: xxxx-xxxx-xxxx</p>
@@ -62,7 +65,7 @@ function Footer() {
                             </div>
 
                             <div className="col-6 col-lg-4 mb-4 text-center ">
-                                <h4 className="mb-3">Quick Links</h4>
+                                <h5 className="mb-2">Quick Links</h5>
                                 <ul>
                                     <li>
                                         <a href="#">Lorem, ipsum.</a>
@@ -78,9 +81,9 @@ function Footer() {
                                     </li>
                                 </ul>
                             </div>
-
+                            
                             <div className="col-6 col-lg-4 mb-4 text-center">
-                                <h4 className="mb-3">Follow Us</h4>
+                                <h5 className="mb-2">Follow Us</h5>
                                 <div className="col-lg-6 mx-auto">
                                     <div className="row">
                                         <div className="col-3 mx-auto">
@@ -123,9 +126,9 @@ function Footer() {
                                 </div>
                             </div>
 
-                            <hr className="mt-2" />
+                            <hr className="mt-0" />
 
-                            <div className="mt-2">
+                            <div className="mt-0">
                                 <p className="copyright-text text-center w-100">
                                     &copy; Copyright 2022, Electrical Engineering Students’ Society, IIT Roorkee. All rights reserved.
                                 </p>
@@ -138,20 +141,6 @@ function Footer() {
     );
 }
 
-// let mybutton = document.getElementById("btn-backToTop");
-
-// // When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function() {
-//     scrollFunction()
-// };
-
-// function scrollFunction() {
-//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     mybutton.style.display = "block";
-//   } else {
-//     mybutton.style.display = "none";
-//   }
-// }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
