@@ -12,3 +12,9 @@
     border-radius: 0.2em;
     transform: translateX(1.5em);
 }
+@media (max-width:800px) {
+    .heading_name{
+        font-size: 1.2em;
+    }
+    
+}

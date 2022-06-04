@@ -12,7 +12,7 @@ export default function WhoWeAre() {
           <div className="heading_WhoWeAre">
             <Heading name="Who We are"/>
           </div>
-          <div className="content_WhoWeAre">
+          <div className="content_WhoWeAre" >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim sed condimentum placerat in sapien. In porttitor odio lacus ut nisi tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim sed condimentum placerat in sapien. In porttitor odio lacus ut nisi tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim sed condimentum placerat in sapien. In porttitor odio lacus ut nisi tincidunt.
           </div>
         </div>

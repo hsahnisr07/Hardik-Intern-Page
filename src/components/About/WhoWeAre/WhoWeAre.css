@@ -26,6 +26,7 @@
 }
 .content_WhoWeAre{
     font-weight: 300;
+
 }
 .WhoWeAre_img{
     position: absolute;
@@ -53,6 +54,7 @@
         position: static;
         width: auto;
         margin-bottom: 2em;
+        align-items: center;
     }
     .heading_WhoWeAre{
         font-size: 1.8em;
@@ -61,5 +63,6 @@
     .content_WhoWeAre{
         font-size: 1.5em;
         font-weight: 300;
+        text-align: justify;
     }
 }
