@@ -54,7 +54,7 @@ function Footer() {
                         </div>
 
                         <div className="row justify-content-center">
-                            <div className="col-6 col-lg-4 mb-4 ">
+                            <div className="col-6 col-lg-4 mb-2 ">
                                 <h5 className="mb-2">Our Address</h5>
                                 <p className="mb-0">Department Of Electrical Engineering</p>
                                 <p className="mb-1">IIT Roorkee, 247667</p>
@@ -64,7 +64,7 @@ function Footer() {
                                 </p>
                             </div>
 
-                            <div className="col-6 col-lg-4 mb-4 text-center ">
+                            <div className="col-6 col-lg-4 mb-2 text-center ">
                                 <h5 className="mb-2">Quick Links</h5>
                                 <ul>
                                     <li>
@@ -82,7 +82,7 @@ function Footer() {
                                 </ul>
                             </div>
                             
-                            <div className="col-6 col-lg-4 mb-4 text-center">
+                            <div className="col-6 col-lg-4 mb-2 text-center">
                                 <h5 className="mb-2">Follow Us</h5>
                                 <div className="col-lg-6 mx-auto">
                                     <div className="row">

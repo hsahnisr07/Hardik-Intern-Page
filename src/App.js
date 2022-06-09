@@ -17,15 +17,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navbar/>} >
-            <Route index element={<Home/>}/>
-            <Route path="/About" element={<About/>}/>
+            <Route index element={<Home />} />
+            <Route path="/About/*" exact element={<About/>}/>
             <Route path="/Events" element={<Events/>}/>
             <Route path="/Intern" element={<Intern/>}/>
             <Route path="/Acads" element={<Acads/>}/>
-          
           </Route>
-        
-      
         </Routes>
         <Footer />
       </BrowserRouter>
