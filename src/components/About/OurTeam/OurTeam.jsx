@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from "react-router-dom";
 import "./OurTeam.css";
 
-import Heading from "../../Heading/Heading";
+import Heading from "../../UI/Heading/Heading";
 import OurTeam_navbar from "./OurTeam_navbar/OurTeam_navbar";
 import OurTeam_data from "./OurTeam_data/OurTeam_data";
 

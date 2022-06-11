@@ -18,7 +18,7 @@ function CarouselContainer() {
               <h2>{slide.heading}</h2>
               <p>{slide.description}</p>
               <Button color="danger">
-                <a href={slide.link}>Watch Now</a></Button>
+                <a target="_blank" href={slide.link}>Watch Now</a></Button>
             </Carousel.Caption>
           </Carousel.Item>
         )

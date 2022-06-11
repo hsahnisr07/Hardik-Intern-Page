@@ -45,45 +45,6 @@
     font-size: small;
 }
 
-.WhoWeAre_button {
-    margin-top: 1em;
-    padding: 0.3em;
-    width: 10em;
-    background-color: #ff8800;
-    border-radius: 8px;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-}
-
-.WhoWeAre_button>span {
-    position: relative;
-    transition: 0.5s;
-    display: inline-block;
-}
-
-.WhoWeAre_button>span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: all 0.5s ease;
-}
-
-.WhoWeAre_button:hover span {
-    padding-right: 0.8em;
-}
-
-.WhoWeAre_button:hover span:after {
-    opacity: 1;
-    right: 0;
-}
-
-.WhoWeAre_button:hover {
-    color: black;
-}
-
 @media (max-width:800px) {
     .WhoWeAre_body {
         height: auto;

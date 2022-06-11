@@ -1,8 +1,8 @@
 import React from "react";
 import "./WhoWeAre.css";
 
-import bgmImage from "../../../Assets/WhoWeAre.jpg";
-import Heading from "../../Heading/Heading";
+import Heading from "../../UI/Heading/Heading";
+import ButtonAnimate from "../../UI/Button_animated/ButtonAnimate";
 
 export default function WhoWeAre() {
   return (
@@ -38,11 +38,7 @@ export default function WhoWeAre() {
           <span className="meetus">
             MEET THE MAGIC MAKERS BEHIND THE SCENES
           </span>
-          <a href="#OurTeam" className="WhoWeAre_button">
-            <span>
-              Team Members
-            </span>
-          </a>
+          <ButtonAnimate text="Team Members" link="#OurTeam"/>
         </div>
       </div>
     </>
