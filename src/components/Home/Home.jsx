@@ -10,7 +10,7 @@ export default function Home() {
     <div className="home_body">
       {/* <CarouselContainer /> */}
       <Updates/>
-      {/* <Home_Carousel/> */}
+      <Home_Carousel/>
     </div>
   );
 }
