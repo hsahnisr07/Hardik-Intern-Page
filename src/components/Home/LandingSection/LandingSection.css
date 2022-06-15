@@ -17,23 +17,28 @@
 }
 
 .LandingSection_content > h1,
-.LandingSection_content > h3 {
-  color: #ffffff;
+.LandingSection_content > h3,
+.LandingSection_content > p {
+  position: relative;
+  bottom: 0;
 }
 
 .LandingSection_content > h1 {
   font-size: 2.5em;
   color: #ff8800;
+  animation: 1s 1 headerAnimate;
 }
 
 .LandingSection_content > h3 {
   font-size: 1.5em;
   color: #ffffff;
+  animation: 1.25s 1 headerAnimate;
 }
 
 .LandingSection_content > p {
   font-size: 0.75em;
   color: #ffffff;
+  animation: 1.5s 1 headerAnimate;
 }
 
 .Strip1 {
@@ -51,7 +56,7 @@
   left: 0%;
   bottom: -5%;
   transform: rotate(-20deg);
-  animation: 1.5s 1 slide1;
+  animation: 1s 1 slide1;
 }
 
 .Strip2 {
@@ -68,7 +73,7 @@
   left: 0%;
   bottom: -25%;
   transform: rotate(-20deg);
-  animation: 1.5s 1 slide2;
+  animation: 1s 1 slide2;
 }
 
 .Strip3 {
@@ -85,7 +90,7 @@
   left: 0%;
   bottom: -15%;
   transform: rotate(-20deg);
-  animation: 1.5s 1 slide3;
+  animation: 1s 1 slide3;
 }
 
 .Strip4,
@@ -109,6 +114,17 @@
 .Strip5 {
   left: 0%;
   bottom: -120%;
+}
+
+@keyframes headerAnimate {
+  from {
+    bottom: -50px;
+    opacity: 0.2;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
 }
 
 @keyframes slide1 {
