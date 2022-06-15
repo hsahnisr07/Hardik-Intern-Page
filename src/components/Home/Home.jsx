@@ -10,9 +10,8 @@ export default function Home() {
   return (
     <div className="home_body">
       <LandingSection />
-      {/* <CarouselContainer /> */}
-      {/* <Updates/> */}
-      {/* <Home_Carousel/> */}
+      <Updates/>
+      <Home_Carousel/>
     </div>
   );
 }
