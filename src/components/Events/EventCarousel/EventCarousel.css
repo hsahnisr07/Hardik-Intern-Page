@@ -75,12 +75,12 @@
   border: none;
   z-index: 2;
 }
-.carousel_control_button:first-child {
+/* .carousel_control_button:first-child {
   transform: rotate(-90deg);
-}
-.carousel_control_button:last-child {
+} */
+/* .carousel_control_button:last-child {
   transform: rotate(90deg);
-}
+} */
 
 .EventCarousel_SlideButton {
   position: relative;

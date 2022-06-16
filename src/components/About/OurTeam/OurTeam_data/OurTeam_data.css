@@ -77,12 +77,12 @@
     }
 
     .ourTeam__member {
-        column-gap: 0%;
+        column-gap: 5%;
         padding: 0;
     }
 
     .ourTeam__teamCard {
-        width: 50%;
+        width: 47.5%;
     }
 
     .img_container img {

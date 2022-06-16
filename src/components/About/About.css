@@ -12,4 +12,9 @@
     height: 80vh;
     width: auto;
 }
+@media (max-width:800px) {
+    .about_body>.dep_image{
+        background-position: right;
+    }
+}
 

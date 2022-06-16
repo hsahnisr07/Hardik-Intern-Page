@@ -10,3 +10,8 @@
   );
   border-radius: 1.25rem;
 }
+@media (max-width:800px){
+  .GlassContainer{
+    padding: 1.5em;
+  }
+}

@@ -52,11 +52,14 @@
 }
 
 @media (max-width:720px) {
+    .OurTeam_navbar_body{
+        width: 15vw;
+    }
     .OurTeam_navbar_nav{
         max-width: 70%;
     }
     .OurTeam_navbar__navMenu>.Link {
-        height: 3em;
+        aspect-ratio: 1;
     }
     .OurTeam_navbar__navMenu>.Link>svg{
         margin: auto;

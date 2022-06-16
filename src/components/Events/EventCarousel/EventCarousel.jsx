@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react'
 
-import ControlArrow from "../../../Assets/EventCarousel/ControlArrow.svg"
+import LeftArrow from "../../../Assets/Icons/LeftArrow.svg";
+import RightArrow from "../../../Assets/Icons/RightArrow.svg";
 import EventDescription from '../EventDescription/EventDescription';
 import './EventCarousel.css'
 import Events from './EventData';
@@ -58,7 +59,7 @@ const EventCarousel = () => {
                 <h3 className='Event_Heading'>“Creativity involves breaking out of established patterns in order to look at things in a different way.”</h3>
                 <div className="EventCarousel_container">
                     <button className="carousel_control_button" onClick={prevSlide}>
-                        <img src={ControlArrow} alt="Prev Slide" />
+                        <img src={LeftArrow} alt="Prev Slide" />
                     </button>
                     <div className="CardCarousel_container">
                         {
@@ -78,7 +79,7 @@ const EventCarousel = () => {
                         }
                     </div>
                     <button className="carousel_control_button" onClick={nextSlide}>
-                        <img src={ControlArrow} alt="Next Slide" />
+                        <img src={RightArrow} alt="Next Slide" />
                     </button>
                 </div>
                 <div className='EventCarousel_SlideButton'>
@@ -89,7 +90,7 @@ const EventCarousel = () => {
                     })}
                     <div className='Events_ReadMore'>
                         <a href="#EventDescription">
-                            <img src={ControlArrow} alt="Read More" />
+                            <img src={RightArrow} alt="Read More" />
                         </a>
                         Read More
                     </div>

@@ -1,7 +1,10 @@
 .UpdateContainer{
-    padding-top: 2em;
+    padding-top: 4em;
     width: 90vw;
     margin: auto;
+}
+.Update_card_container{
+    padding: 1em;
 }
 .Update_card{
     margin-top: 1em;
@@ -10,8 +13,50 @@
     background-color: black;
     border-radius: 1em;
 }
+.Update_card_img{
+    height: 12em;
+    aspect-ratio: 1;
+    width: auto;
+    border-radius: 0.75em;
+}
 .Update_card_content{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding-left: 2em;
+}
+.Update_content_text > .Update_heading{
+    font-size: 1.5em;
+}
+.Update_content_text > .Update_descp{
+    font-weight: 300;
+}
+
+@media (max-width: 800px) {
+    .UpdateContainer{
+        width: 100vw;
+    }
+    .Update_card_container{
+        padding: 0em;
+    }
+    .Update_card{
+        margin: auto;
+        margin-top: 1em;
+        padding: 1em;
+        flex-direction: column;
+    }
+    .Update_card_img{
+        margin: auto;
+        height: 15em;
+    }
+    .Update_card_content{
+        padding-left: 0em;
+        padding-top: 1em;
+    }
+    .Update_content_text > .Update_heading{
+        font-size: 1.15em;
+    }
+    .Update_content_text > .Update_descp{
+        display: none;
+    }
 }

@@ -15,11 +15,13 @@ export default function Updates() {
                 {UpdateData.map((obj,idx)=>{
                     return(
                         <div key={idx} className='Update_card'>
-                            <img src={obj.img} alt=""/>
+                            <img src={obj.img} alt="" className="Update_card_img"/>
                             <div className="Update_card_content">
-                                <div className="Update_heading">{obj.header}</div>
-                                <div className="Update_descp">{obj.description}</div>
-                                <ButtonAnimate link={obj.link} text="Know More"/>
+                                <div className="Update_content_text">
+                                    <div className="Update_heading">{obj.header}</div>
+                                    <div className="Update_descp">{obj.description.substring(0,220)} ...</div>
+                                </div>
+                                <ButtonAnimate link={obj.link} text="Know More" className="Update_button"/>
                             </div>
                         </div>
                     )
