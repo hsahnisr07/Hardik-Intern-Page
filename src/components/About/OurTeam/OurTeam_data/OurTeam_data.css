@@ -43,7 +43,7 @@
 .ourTeam__teamCard .img_container .img_hover_content {
     position: absolute;
     opacity: 0;
-    transition: 0.5s all ease;
+    transition: 0.5s all ease-in-out;
 }
 
 .img_hover_content div {

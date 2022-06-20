@@ -28,20 +28,20 @@ export default function OurTeam_navbar({IsOnAbout}) {
               <li>Secretaries</li>
             </NavLink>
             <NavLink
+              to="/About/Development"
+              className="Link"
+              activeClassName="active"
+            >
+              <Media_icon/>
+              <li>Development</li>
+            </NavLink>
+            <NavLink
               to="/About/Design"
               className="Link"
               activeClassName="active"
             >
               <Design_icon/>
               <li>Design</li>
-            </NavLink>
-            <NavLink
-              to="/About/Media"
-              className="Link"
-              activeClassName="active"
-            >
-              <Media_icon/>
-              <li>Media</li>
             </NavLink>
             <NavLink
               to="/About/Editorial"

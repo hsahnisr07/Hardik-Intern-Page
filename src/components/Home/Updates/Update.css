@@ -13,7 +13,21 @@
     background-color: black;
     border-radius: 1em;
 }
+.Update_image_Container{
+    background: linear-gradient(124.29deg,
+            #282A27B2 54.99%,
+            rgba(39, 41, 38, 0.18) 89.22%);
+    border-radius: 0.75em;
+    height: 12em;
+    aspect-ratio: 1;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 .Update_card_img{
+    position: absolute;
     height: 12em;
     aspect-ratio: 1;
     width: auto;
@@ -44,6 +58,13 @@
         margin-top: 1em;
         padding: 1em;
         flex-direction: column;
+    }
+    .Update_image_Container{
+        background: linear-gradient(124.29deg,
+                #282A27B2 54.99%,
+                rgba(39, 41, 38, 0.18) 89.22%);
+        border-radius: 0.75em;
+        height: 15em;
     }
     .Update_card_img{
         margin: auto;

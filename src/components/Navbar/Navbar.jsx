@@ -55,7 +55,7 @@ export default function Navbar() {
               <li>Events</li>
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               onClick={LinkHandler}
               to="/Intern"
               className="Link"
@@ -71,7 +71,7 @@ export default function Navbar() {
               activeClassName="active"
             >
               <li>Academics</li>
-            </NavLink>
+            </NavLink> */}
           </ul>
         </nav>
         <Hamburger isOpen={isHamburgerOpen} onClick={HamburgerHandler} />

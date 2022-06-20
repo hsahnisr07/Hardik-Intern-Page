@@ -68,16 +68,13 @@ function Footer() {
                                 <h5 className="mb-2">Quick Links</h5>
                                 <ul>
                                     <li>
-                                        <a href="#">Lorem, ipsum.</a>
+                                        <a target="_blank" href="https://iitr.ac.in/">IITR Home</a>
                                     </li>
                                     <li>
-                                        <a href="#">Lorem, ipsum.</a>
+                                        <a target="_blank" href="https://iitr.ac.in/Departments/Electrical%20Engineering%20Department/Home.html">EED</a>
                                     </li>
                                     <li>
-                                        <a href="#">Lorem, ipsum.</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Lorem, ipsum.</a>
+                                        <a target="_blank" href="https://acad.iitr.ac.in/">Acads</a>
                                     </li>
                                 </ul>
                             </div>

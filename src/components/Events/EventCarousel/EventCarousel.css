@@ -37,37 +37,52 @@
 
 .EventCarousel_card {
   position: absolute;
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(124.29deg,
+            #282A27B2 54.99%,
+            rgba(39, 41, 38, 0.18) 89.22%);
   width: 50%;
   aspect-ratio: 5/3;
   border-radius: 0.75em;
   transition: all 500ms linear;
+   transition-property: transform;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #000;
+  overflow: hidden;
+}
+
+.EventCarousel_card>img{
+  z-index: 1;
+  width: 100%;
+  aspect-ratio: 5/3;
+  border-radius: 0.75em;
 }
 
 .EventCarousel_card.active {
   position: relative;
   transform: scale(1);
-  z-index: 1;
+  z-index: 2;
 }
 
 .EventCarousel_card.prevImg1 {
   transform: translateX(-50%) scale(0.6);
+  z-index: 1;
 }
 
 .EventCarousel_card.prevImg2 {
   transform: translateX(50%) scale(0.6);
+   z-index: 0;
 }
 
 .EventCarousel_card.nextImg1 {
   transform: translateX(50%) scale(0.6);
+  z-index: 0;
 }
 
 .EventCarousel_card.nextImg2 {
   transform: translateX(-50%) scale(0.6);
+  z-index: 1;
 }
 
 .carousel_control_button {
@@ -75,12 +90,6 @@
   border: none;
   z-index: 2;
 }
-/* .carousel_control_button:first-child {
-  transform: rotate(-90deg);
-} */
-/* .carousel_control_button:last-child {
-  transform: rotate(90deg);
-} */
 
 .EventCarousel_SlideButton {
   position: relative;
@@ -116,7 +125,7 @@
   background-color: transparent;
   border: none;
   z-index: 2;
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
 
 @media (max-width: 746px) {

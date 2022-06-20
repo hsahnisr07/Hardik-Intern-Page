@@ -1,27 +1,33 @@
 //Image Import
-import FreshersImg from "../../../Assets/img_home/update_imgs/Freshers video 1.jpg";
+import Recruitments from "../../../Assets/img_home/update_imgs/Recruitments.jpg";
+import Farewell from "../../../Assets/img_home/update_imgs/Farewell22.jpg";
+import InternTalk from "../../../Assets/img_home/update_imgs/InternTalk.jpg";
+import FreshersImg from "../../../Assets/img_home/update_imgs/Freshers.jpg";
 
 const UpdateData = [
     {
-        indx:1,
-        img:FreshersImg,
-        header: "Fresher's Video Out Now!!",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        link: "https://youtu.be/1bmihxBedxo"
+        img:Recruitments,
+        header: "We Are Recruiting!!",
+        description:"How’s the josh,? Well pretty high as we received a tremendous amount of responses. Stay tuned to know who makes the cut !",
+        link: "#updates"
     },
     {
-        indx:2,
-        img:FreshersImg,
-        header: "Fresher's Video Out Now!!",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        link: "https://youtu.be/1bmihxBedxo"
+        img:Farewell,
+        header: "Farewell - 22!!",
+        description:"Get a glimpse down the memory lane and relive the moments as we celebrate the amazing journey of our most recent graduates !!",
+        link: "/Events"
     },
     {
-        indx:3,
+        img:InternTalk,
+        header: "Internship Talks!!",
+        description:"Get yourself the answers you have always been searching for and clear your doubts about internships and much more by knowing the journey of our beloved seniors.",
+        link: "https://youtu.be/1OoglpGoDrA"
+    },
+    {
         img:FreshersImg,
         header: "Fresher's Video Out Now!!",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        link: "https://youtu.be/1bmihxBedxo"
+        description:"Every batch has its own quirkiness and uniqueness. Here’s a sneak peek into the goofy batch of our freshers this year !.. ",
+        link: "https://youtu.be/pWzGryQYxeA"
     },
 ];
 

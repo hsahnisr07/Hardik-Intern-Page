@@ -19,8 +19,6 @@ const OurTeamData = {
             position: "Chief Warden",
             img: cw,
             mail: "mkasthana@hss.iitr.ac.in",
-            phone1: "+91 89340 50732",
-            phone2: "+91 99103 24921",
         },
         {
             id: 2,
@@ -28,8 +26,6 @@ const OurTeamData = {
             position: "Supervisor",
             img: supervisor,
             mail: "rajivbhawan@iitr.ac.in",
-            phone1: "+91 70606 16348",
-            phone2: "",
         },
         {
             id: 1,
@@ -37,8 +33,6 @@ const OurTeamData = {
             position: "Chief Warden",
             img: cw,
             mail: "mkasthana@hss.iitr.ac.in",
-            phone1: "+91 89340 50732",
-            phone2: "+91 99103 24921",
         },
         {
             id: 2,
@@ -46,8 +40,6 @@ const OurTeamData = {
             position: "Supervisor",
             img: supervisor,
             mail: "rajivbhawan@iitr.ac.in",
-            phone1: "+91 70606 16348",
-            phone2: "",
         },
         {
             id: 1,
@@ -55,8 +47,6 @@ const OurTeamData = {
             position: "Chief Warden",
             img: cw,
             mail: "mkasthana@hss.iitr.ac.in",
-            phone1: "+91 89340 50732",
-            phone2: "+91 99103 24921",
         },
         {
             id: 2,
@@ -64,8 +54,6 @@ const OurTeamData = {
             position: "Supervisor",
             img: supervisor,
             mail: "rajivbhawan@iitr.ac.in",
-            phone1: "+91 70606 16348",
-            phone2: "",
         },
     ],
     Design : [
@@ -75,8 +63,6 @@ const OurTeamData = {
             position: "Chief Warden",
             img: aw,
             mail: "mkasthana@hss.iitr.ac.in",
-            phone1: "+91 89340 50732",
-            phone2: "+91 99103 24921",
         },
         {
             id: 2,
@@ -84,19 +70,15 @@ const OurTeamData = {
             position: "Supervisor",
             img: mw,
             mail: "rajivbhawan@iitr.ac.in",
-            phone1: "+91 70606 16348",
-            phone2: "",
         }
     ],
-    Media : [
+    Development : [
         {
             id: 1,
             name: "Manish K. Asthana",
             position: "Chief Warden",
             img: wwr,
             mail: "mkasthana@hss.iitr.ac.in",
-            phone1: "+91 89340 50732",
-            phone2: "+91 99103 24921",
         },
         {
             id: 2,
@@ -104,8 +86,6 @@ const OurTeamData = {
             position: "Supervisor",
             img: bs,
             mail: "rajivbhawan@iitr.ac.in",
-            phone1: "+91 70606 16348",
-            phone2: "",
         }
     ],
     Editorial : [
@@ -115,8 +95,6 @@ const OurTeamData = {
             position: "Chief Warden",
             img: ts,
             mail: "mkasthana@hss.iitr.ac.in",
-            phone1: "+91 89340 50732",
-            phone2: "+91 99103 24921",
         },
         {
             id: 2,
@@ -124,8 +102,6 @@ const OurTeamData = {
             position: "Supervisor",
             img: ms,
             mail: "rajivbhawan@iitr.ac.in",
-            phone1: "+91 70606 16348",
-            phone2: "",
         }
     ],
     Operations : [
@@ -135,8 +111,6 @@ const OurTeamData = {
             position: "Chief Warden",
             img: mss,
             mail: "mkasthana@hss.iitr.ac.in",
-            phone1: "+91 89340 50732",
-            phone2: "+91 99103 24921",
         },
         {
             id: 2,
@@ -144,8 +118,6 @@ const OurTeamData = {
             position: "Supervisor",
             img: cs,
             mail: "rajivbhawan@iitr.ac.in",
-            phone1: "+91 70606 16348",
-            phone2: "",
         }
     ],
     Faculty : [
@@ -155,8 +127,6 @@ const OurTeamData = {
             position: "Chief Warden",
             img: ss,
             mail: "mkasthana@hss.iitr.ac.in",
-            phone1: "+91 89340 50732",
-            phone2: "+91 99103 24921",
         },
         {
             id: 2,
@@ -164,8 +134,6 @@ const OurTeamData = {
             position: "Supervisor",
             img: cw,
             mail: "rajivbhawan@iitr.ac.in",
-            phone1: "+91 70606 16348",
-            phone2: "",
         }
     ],
 };

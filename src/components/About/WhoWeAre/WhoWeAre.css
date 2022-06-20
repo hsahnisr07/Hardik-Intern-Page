@@ -32,12 +32,12 @@
 
 .WhoWeAre_img_box {
     background-image: url("../../../Assets/WhoWeAre.jpg");
-    height: 70vh;
     width: 100vw;
+    aspect-ratio: 22/7;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
 }
 
 .meetus {
@@ -55,6 +55,8 @@
     }
 
     .WhoWeAre_img_box {
+        aspect-ratio: 5/2;
+        background-size: cover;
         margin-top: 5em;
         max-width: 90vw;
         height: 30vh;
