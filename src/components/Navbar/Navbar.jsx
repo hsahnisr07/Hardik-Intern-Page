@@ -32,7 +32,7 @@ export default function Navbar() {
               onClick={LinkHandler}
               to="/"
               className="Link"
-              activeClassName="active"
+              activeclassname="active"
             >
               <li>Home</li>
             </NavLink>
@@ -41,7 +41,7 @@ export default function Navbar() {
               onClick={LinkHandler}
               to="/About"
               className="Link"
-              activeClassName="active"
+              activeclassname="active"
             >
               <li>About</li>
             </NavLink>
@@ -50,7 +50,7 @@ export default function Navbar() {
               onClick={LinkHandler}
               to="/Events"
               className="Link"
-              activeClassName="active"
+              activeclassname="active"
             >
               <li>Events</li>
             </NavLink>
@@ -59,7 +59,7 @@ export default function Navbar() {
               onClick={LinkHandler}
               to="/Intern"
               className="Link"
-              activeClassName="active"
+              activeclassname="active"
             >
               <li>Intern</li>
             </NavLink>
@@ -68,7 +68,7 @@ export default function Navbar() {
               onClick={LinkHandler}
               to="/Acads"
               className="Link"
-              activeClassName="active"
+              activeclassname="active"
             >
               <li>Academics</li>
             </NavLink> */}
