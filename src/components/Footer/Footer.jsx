@@ -64,7 +64,7 @@ function Footer() {
                 style={{ width: "fit-content" }}
               >
                 <h5 className="mb-2">Quick Links</h5>
-                <ul className="text-end">
+                <ul className="text-start">
                   <li>
                     <a
                       target="_blank"

@@ -30,7 +30,13 @@ const Events = [
             Heading: <h3>InternTalk</h3>,
             description:
                 <p style={{fontWeight:"300"}}>
-                   Content lao Abhiyansh Raj
+                   EESS successfully conducted Intern Talks for Software, Research and Core profiles for second-year students to help them clear their questions, doubts, and fears regarding the same. The talk was hosted by members of EESS and chaired by their seniors who had themselves been in the same spot a year back and had excelled in flying colours in their respective fields. The host first briefed the audience about the general preparation strategy and was followed by the students asking their questions directly to the panel.
+                   <br/>
+                   The talk was conducted in offline mode and also acted as an icebreaker giving the students a first-hand experience of offline mode. The talk was also streamed on the EESS YouTube channel for people who couldn’t attend the talk in person.
+                   <br/>
+                   The importance of this talk can’t be stressed enough. INTERN SEASON - which usually takes place in the months JULY to SEPTEMBER is a very hectic and stressful time for the third-yearites, and it’s crucial to have the right guidance during this time and who’s better to lead than those who have already tasted the fights and fails in their own time. 
+                   <br/>
+                   Our panel consisted of superb achievers of our Department ranging from all domains. They showed the roadmap which the students could follow and the resources which can be helpful for this journey. We all know that a lot of information and materials are present but to find the right track is like searching for a needle in a haystack. Here’s where the experience of our seniors is undoubtedly the game-changer.
                 </p>
         }
     },{

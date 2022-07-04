@@ -15,14 +15,14 @@ const HomeCarouselContent = [
         indx:2,
         img: slide2,
         heading: "Intern Talk | Software Profile",
-        description: `Content lao Abhiyansh Raj`,
+        description: `EESS successfully conducted Intern Talks for Software, Research and Core profiles for second-year students to help them clear their questions, doubts, and fears regarding the same.`,
         ytlink: "https://youtu.be/1OoglpGoDrA"
     },
     {
         indx:3,
         img: slide3,
         heading: "Intern Talk | Core Profile",
-        description: `Phir se Content lao Abhiyansh Raj`,
+        description: `EESS successfully conducted Intern Talks for Software, Research and Core profiles for second-year students to help them clear their questions, doubts, and fears regarding the same.`,
         ytlink: "https://youtu.be/WrXBQcbCrGw"
     },
     {

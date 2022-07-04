@@ -51,9 +51,9 @@
     font-size: small;
 }
 
-.img_container:hover img {
+/* .img_container:hover img {
     opacity: 0.2;
-}
+} */
 
 .img_container:hover .img_hover_content {
     opacity: 1;
