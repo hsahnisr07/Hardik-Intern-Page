@@ -8,7 +8,7 @@ import OpSecy from "../../../../Assets/OurTeam_imgs/OurTeam_photos/secreteries/o
 
 
 import dv1 from "../../../../Assets/OurTeam_imgs/OurTeam_photos/Development/Dv1.jpeg";
-import dv2 from "../../../../Assets/OurTeam_imgs/OurTeam_photos/Development/Dv2.jpg";
+import dv2 from "../../../../Assets/OurTeam_imgs/OurTeam_photos/Development/Dv2.png";
 
 import ds1 from "../../../../Assets/OurTeam_imgs/OurTeam_photos/Design/Ds1.jpeg";
 import ds2 from "../../../../Assets/OurTeam_imgs/OurTeam_photos/Design/Ds2.jpeg";
