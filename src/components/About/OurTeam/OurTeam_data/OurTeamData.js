@@ -183,7 +183,7 @@ const OurTeamData = {
             mail: "",
         },
         {
-            name: "Sanskriti Saran",
+            name: "Sanskriti Sharan",
             position: "",
             img: op5,
             mail: "",
