@@ -10,6 +10,10 @@ import Events from "./components/Events/Events";
 import Acads from "./components/Acads/Acads";
 import Intern from "./components/Intern/Intern";
 import Footer from "./components/Footer/Footer";
+<<<<<<< HEAD
+=======
+import { ListGroupItem } from "react-bootstrap";
+>>>>>>> 75b8358 (first commit)
 
 function App() {
   return (

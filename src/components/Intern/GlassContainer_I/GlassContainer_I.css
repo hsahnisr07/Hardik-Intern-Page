@@ -1,21 +1,18 @@
-.GlassContainer {
+.GlassContainer_I {
   margin: 0 auto;
   width: 90%;
   height: fit-content;
   padding: 2em;
-  background: linear-gradient(
+  /* background: linear-gradient(
     124.29deg,
     #282A27B2 54.99%,
     rgba(39, 41, 38, 0.18) 89.22%
-  );
-<<<<<<< HEAD
-=======
-  /* background-color:black; */
->>>>>>> 75b8358 (first commit)
+  ); */
+  background-color:black;
   border-radius: 1.25rem;
 }
 @media (max-width:800px){
-  .GlassContainer{
+  .GlassContainer_I{
     padding: 1.5em;
   }
 }

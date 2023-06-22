@@ -1,5 +1,9 @@
 .intern_body{
+<<<<<<< HEAD
     height: 100vh;
+=======
+    /* height: 100vh; */
+>>>>>>> 75b8358 (first commit)
     width: auto;
     color: white;
     display: flex;
